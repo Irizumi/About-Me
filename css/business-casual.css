@@ -30,10 +30,10 @@ p {
     line-height: 1.6;
     color: #000;
 }
-/* The small header text*/
+/* The middle of the page*/
 hr {
     max-width: 400px;
-    border-color: #0099cc;
+    border-color: #000066;
 }
 
 .brand,
@@ -74,7 +74,7 @@ hr {
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
-    border-color: #ffffff;
+    border-color: #ffff66;
 }
 /*the header itself*/
 .box {
