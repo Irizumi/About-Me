@@ -74,13 +74,13 @@ hr {
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
-    border-color: #000066;
+    border-color: #fff;
 }
 
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
+    background: ##000066;
     background: rgba(255,255,255,0.9);
 }
 
