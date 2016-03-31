@@ -104,7 +104,7 @@ hr {
 }
 
 footer {
-    background: #000066;
+    background: #0000ff;
     
 }
 
@@ -135,7 +135,7 @@ footer p {
         float: left;
         margin-right: 25px;
     }
-
+    
     .address-bar {
         display: inherit;
         margin: 0;
@@ -160,7 +160,7 @@ footer p {
     .navbar {
         min-height: 0;
     }
-
+    /*the home,about,etc buttons*/
     .navbar-default {
         border: none;
         background: #000066;
