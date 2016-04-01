@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/space-04.jpg') no-repeat center center fixed;
+    background: url('../img/space-07.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -23,17 +23,19 @@ h6 {
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #cccc00;
 }
 
 p {
     font-size: 1.25em;
     line-height: 1.6;
-    color: #000;
+    color:  #cccc00;
 }
-/* The middle of the page*/
+
 hr {
     max-width: 400px;
-    border-color: #000066;
+    border-color: #cccc00;
+    color: #cccc00
 }
 
 .brand,
@@ -74,15 +76,17 @@ hr {
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
-    border-color: #ffff66;
+    border-color: black;
 }
-/*the header itself*/
+/*the middle of the page*/
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #0099cc;
-    
-    
+    background: #000099;
+    opacity: 0.8;
+}
+.box:hover {
+    opacity: 1.0;
 }
 
 .intro-text {
@@ -104,8 +108,8 @@ hr {
 }
 
 footer {
-    background: #000066;
-    
+    background: #000099;
+    opacity: 0.8;
 }
 
 footer p {
@@ -124,7 +128,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #cccc00;
     }
 
     .top-divider {
@@ -135,7 +139,7 @@ footer p {
         float: left;
         margin-right: 25px;
     }
-    
+    /*details under the header*/
     .address-bar {
         display: inherit;
         margin: 0;
@@ -146,7 +150,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #ffffff;
+        color: #cccc00;
     }
 
     .navbar {
@@ -159,14 +163,19 @@ footer p {
 
     .navbar {
         min-height: 0;
+
     }
     /*the home,about,etc buttons*/
     .navbar-default {
         border: none;
-        background: #000066;
-        
+        background: #000099;
+        color: #cccc00;
+        opacity: 0.8;
     }
 
+    .navbar-default:hover {
+        opacity: 1.0;
+    }
     .nav>li>a {
         padding: 35px;
     }
@@ -191,3 +200,4 @@ footer p {
         clear: both;
     }
 }
+=
