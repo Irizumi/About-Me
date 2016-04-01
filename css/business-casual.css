@@ -87,6 +87,7 @@ hr {
 }
 .box:hover {
     opacity: 1.0;
+    background: #808080;
 }
 
 .intro-text {
@@ -117,6 +118,11 @@ footer p {
     padding: 50px 0;
 }
 
+footer:hover {
+    opacity: 1.0;
+    background: #808080;
+    color: black;
+}
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -175,6 +181,8 @@ footer p {
 
     .navbar-default:hover {
         opacity: 1.0;
+        background: #808080;
+        color: #cccc00;
     }
     .nav>li>a {
         padding: 35px;
